@@ -1,4 +1,5 @@
 import discord
+import config
 # New coment
 
 
@@ -11,4 +12,4 @@ class MyClient(discord.Client):
 
 
 client = MyClient()
-client.run('NzU4NjM1NTc3ODI5NjIxNzcx.X2x0cA.1dpN3GcF1ZEEc_JGn0f080KoY5g')
+client.run(config.TOKEN)
